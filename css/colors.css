@@ -1,0 +1,184 @@
+
+/* ---------- Color Module Styles ----------- */
+:root {
+  --iivdark-brand: #1481b8;
+  --iivdark-surface1: #2e3538;
+  --iivdark-surface2: #394246;
+  --iivdark-surface3: #494e50;
+  --iivdark-surface4: #555b5e;
+  --iivdark-text1: #b6c2c9;
+  --iivdark-text2: #929fa5;
+  --iivdark-gradient-linear: linear-gradient(to bottom right, #2e3538, #394246);
+}
+
+body {
+  color: var(--iivdark-text1);
+}
+.layout,
+.l-container {
+  background: var(--iivdark-surface2);
+}
+.l-header {
+  color: var(--iivdark-brand);
+  background: var(--iivdark-gradient-linear);
+}
+.l-header ul.menu > li > a {
+  color: var(--iivdark-surface3);
+}
+.l-header ul.menu-dropdown a {
+  color: var(--iivdark-text1);
+}
+
+/* Style the colors of the dropdown to match the header if no-tabs. */
+.l-header .no-tabs ul.menu a {
+  color: var(--iivdark-surface3);
+}
+.l-header .no-tabs .menu-dropdown a span.sub-arrow {
+  border-color: var(--iivdark-surface3) transparent transparent transparent;
+}
+.l-header .no-tabs .menu-dropdown ul a span.sub-arrow {
+  border-color: transparent transparent transparent var(--iivdark-surface3); /* RTL */
+}
+.l-header .no-tabs ul.menu-dropdown ul {
+  background-color: var(--iivdark-brand);
+}
+
+input {
+  color: var(--iivdark-text1);
+}
+.tabs ul.primary > li > a.active {
+  background-color: var(--iivdark-surface4);
+}
+.tabs ul.primary > li.active > a {
+  background-color: var(--iivdark-surface4);
+  border-bottom: 1px solid var(--iivdark-surface4);
+  color: var(--iivdark-brand);
+}
+.comment .comment-arrow {
+  border-color: var(--iivdark-surface4);
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: var(--iivdark-brand);
+}
+
+.l-sidebar .block {
+  background-color: var(--iivdark-surface3);
+  border-color: var(--iivdark-surface2);
+}
+
+.l-footer-wrapper,
+.l-footer {
+  background: var(--iivdark-surface1);
+}
+.l-header a {
+  color: var(--iivdark-brand);
+}
+
+.l-header ul.menu a {
+  background: var(--iivdark-surface2);
+  color: var(--iivdark-text1);
+}
+
+.l-header ul.menu-dropdown ul li {
+  border-bottom: solid 1px var(--iivdark-surface4);
+}
+/*
+.l-header ul.menu li li a {
+  background: rgba(255, 255, 255, 0.8);
+}
+.l-header ul.menu li li li a {
+  background: rgba(255, 255, 255, 0.9);
+}
+*/
+.l-header .square-tabs ul.menu > li > a {
+  color: var(--iivdark-text1);
+}
+.l-header ul.menu a:hover,
+.l-header ul.menu a:focus {
+  background: var(--iivdark-surface1);
+}
+.l-header ul.menu-dropdown > li > a.highlighted {
+  background-color: var(--iivdark-surface1);
+}
+
+.l-header .square-tabs ul.menu > li > a.active {
+  color: var(--iivdark-text1);
+  background: var(--iivdark-surface4);
+}
+.menu-toggle-button-icon, .menu-toggle-button-icon::before, .menu-toggle-button-icon::after {
+  background: var(--iivdark-text1);
+}
+.menu-toggle-button-text,
+.l-header .header-menu a {
+  color: var(--iivdark-text1);
+}
+
+@media (min-width: 48em) {
+  .menu-dropdown a span.sub-arrow, .menu-dropdown ul a span.sub-arrow
+  {
+      border-color: var(--iivdark-brand) transparent transparent transparent;
+  }
+  .menu-dropdown ul a span.sub-arrow
+  {
+      border-color: transparent transparent transparent var(--iivdark-brand);
+  }
+}
+/** Buttons **/
+.form-submit,
+a.button,
+.more-link a,
+.node-readmore a {
+  background: var(--iivdark-brand);
+  /*color: var(--iivdark-surface4);*/
+}
+
+.breadcrumb {
+  background-color: var(--iivdark-surface3);
+}
+
+.field-type-taxonomy-term-reference ul.links li a:hover {
+  border: 1px dashed var(--iivdark-brand);
+}
+.field-type-taxonomy-term-reference ul.links li a {
+  border: 1px solid var(--iivdark-brand);
+}
+
+.l-footer-columns,
+.l-footer {
+  color: var(--iivdark-text1);
+}
+.l-footer-columns a,
+.l-footer a {
+  color: var(--iivdark-text1)
+}
+.l-footer-columns a:hover,
+.l-footer-columns a:focus,
+.l-footer a:hover,
+.l-footer a:focus {
+  color: var(--iivdark-text1);
+}
+.l-footer-columns h2,
+.l-footer h2 {
+  border-color: var(--iivdark-surface2);
+}
+
+form input, form textarea {
+  background-color: var(--iivdark-surface4);
+  color: var(--iivdark-text1);
+}
+/** Commentaires **/
+.ck.ck-editor__main > .ck-editor__editable {
+  background-color: var(--iivdark-surface4) !important;
+}
+
+#edit-advanced {
+  background-color: var(--iivdark-surface2);
+}
+
+.comment .submitted .comment-time {
+  color: var(--iivdark-text2);
+}
