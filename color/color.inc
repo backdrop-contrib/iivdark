@@ -17,7 +17,7 @@ $info = array(
   // Pre-defined color schemes.
   'schemes' => array(
     'default' => array(
-      'title' => t('IIV Dark'),
+      'title' => t('IIV Dark Blue'),
       'colors' => array(
         'brand' => '#1481b8',
         'surface1' => '#2e3538',
@@ -26,6 +26,42 @@ $info = array(
         'surface4' => '#555b5e',
         'text1' => '#b6c2c9',
         'text2' => '#929fa5',
+      ),
+    ),
+    'Red' => array(
+      'title' => t('IIV Dark Red'),
+      'colors' => array(
+        'brand' => '#eb4747',
+        'surface1' => '#382e2e',
+        'surface2' => '#463939',
+        'surface3' => '#504949',
+        'surface4' => '#5e5555',
+        'text1' => '#c9b6b6',
+        'text2' => '#a59292',
+      ),
+    ),
+    'Or' => array(
+      'title' => t('IIV Dark Or'),
+      'colors' => array(
+        'brand' => '#e19f2c',
+        'surface1' => '#38342e',
+        'surface2' => '#464139',
+        'surface3' => '#504e49',
+        'surface4' => '#5e5a55',
+        'text1' => '#c9c2b6',
+        'text2' => '#a59e92',
+      ),
+    ),
+    'Mint' => array(
+      'title' => t('IIV Dark Mint'),
+      'colors' => array(
+        'brand' => '#7bdcaf',
+        'surface1' => '#2e3833',
+        'surface2' => '#394640',
+        'surface3' => '#49504d',
+        'surface4' => '#555e5a',
+        'text1' => '#b6c9c0',
+        'text2' => '#92a59c',
       ),
     ),
   ),

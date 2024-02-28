@@ -948,19 +948,8 @@ article .link-wrapper ul.links {
   font-size: 0.929em;
   line-height: 1.6;
 }
-.comment .comment-arrow {
-  background: url(../images/comment-arrow.gif) no-repeat 0 center transparent; 
-  border-left: 1px solid;
-  border-right: 1px solid;
-  height: 40px;
-  margin-left: -47px; 
-  margin-top: 10px;
-  position: absolute;
-  width: 20px;
-}
 .comment .comment-text {
   padding: 10px 25px;
-  border: 1px solid #d3d7d9;
   display: table-cell;
   vertical-align: top;
   position: relative;
@@ -978,10 +967,6 @@ article .link-wrapper ul.links {
 .comment-unpublished {
   margin-right: 5px; 
   padding: 5px 2px 5px 5px; 
-}
-.comment-unpublished .comment-text .comment-arrow {
-  border-left: 1px solid #fff4f4;
-  border-right: 1px solid #fff4f4;
 }
 
 /* ------------------ Sidebar ----------------- */
@@ -1184,7 +1169,6 @@ article .link-wrapper ul.links {
 /* --------------- System Tabs  --------------- */
 
 .tabs {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 20px 0;
 }
 .tabs ul.primary {
@@ -1192,7 +1176,7 @@ article .link-wrapper ul.links {
   margin: 0;
   overflow: hidden;
   border: none;
-  background: transparent url(../images/tabs-border.png) repeat-x left bottom;
+  border-bottom: solid 1px;
 }
 .tabs ul.primary li {
   display: block;
@@ -1204,8 +1188,6 @@ article .link-wrapper ul.links {
   border-bottom: 1px solid #ffffff;
 }
 .tabs ul.primary li a {
-  color: #000;
-  background-color: #ededed;
   height: 1.8em;
   line-height: 1.9;
   display: block;
@@ -1213,10 +1195,13 @@ article .link-wrapper ul.links {
   float: left; /* not LTR */
   padding: 0 10px 3px;
   margin: 0;
+  border: none;
+  background-color: transparent;
 }
-.tabs ul.primary li.active a {
-  background-color: #ffffff;
+.tabs ul.primary li a:hover {
+  background-color: transparent;
 }
+
 .tabs ul.secondary {
   border-bottom: none;
   padding: 0.5em 0;
@@ -1321,7 +1306,7 @@ a.button,
   text-decoration: none;
   margin-bottom: 1em;
   margin-right: 0.6em; 
-  padding: 8px 16px;
+  padding: 0.5em;
   color: #FCFCFC;
   border: none;
 }
@@ -1630,13 +1615,9 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 #search-form .form-submit {
   margin-left: 0;
   margin-right: 0;
-  height: 26px;
-  width: 34px;
-  padding: 0;
+  height: 36px;
+  padding: 0.5rem;
   cursor: pointer;
-  text-indent: -9999px;
-  border-color: #e4e4e4 #d2d2d2 #b4b4b4;
-  background: url(../images/search-button.png) no-repeat center top;
   overflow: hidden;
 }
 #search-block-form .form-submit:hover,

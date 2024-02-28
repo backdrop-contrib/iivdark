@@ -50,12 +50,13 @@ input {
   background-color: var(--iivdark-surface4);
 }
 .tabs ul.primary > li.active > a {
-  background-color: var(--iivdark-surface4);
+  background-color: var(--iivdark-brand);
   border-bottom: 1px solid var(--iivdark-surface4);
-  color: var(--iivdark-brand);
+  color: var(--iivdark-text1);
 }
-.comment .comment-arrow {
-  border-color: var(--iivdark-surface4);
+.tabs ul.primary li a:hover {
+  background-color: var(--iivdark-surface4);
+  color: var(--iivdark-text1);
 }
 
 a,
@@ -181,4 +182,29 @@ form input, form textarea {
 
 .comment .submitted .comment-time {
   color: var(--iivdark-text2);
+}
+.comment .comment-text {
+  border: solid 1px var(--iivdark-text2);
+}
+.comment .comment-text::before {
+  display: block;
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top: 5px solid var(--iivdark-text2);
+  border-left: 5px solid var(--iivdark-text2);
+}
+.comment .comment-text::after {
+  display: block;
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-bottom: 5px solid var(--iivdark-text2);
+  border-right: 5px solid var(--iivdark-text2);
 }

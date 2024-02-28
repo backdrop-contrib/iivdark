@@ -73,7 +73,6 @@
   </header> <!-- /.comment-header -->
 
   <div class="comment-text">
-    <div class="comment-arrow"></div>
     <?php if ($new): ?>
       <span class="new"><?php print $new; ?></span>
     <?php endif; ?>
