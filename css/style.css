@@ -495,7 +495,6 @@ template {
 }
 .block-system-header .site-name {
   font-size: 2.2em;
-  color: #686868;
   line-height: 1;
 }
 .block-system-header h1.site-name {
@@ -591,6 +590,12 @@ template {
 .l-header .header-menu li.last a {
   border-bottom: 0;
 }
+/* Language switcher block in region header. */
+.l-header .block-locale ul li {
+  display: inline;
+  padding: 0 0.5em;
+}
+
 /* User Login block in the header region */
 .l-header .block-user-login {
   width: auto;
@@ -632,32 +637,9 @@ template {
   clear: both;
 }
 .l-header .block-user-login .form-submit {
-  border: 1px solid;
-  border-color: #ccc;
-  border-color: rgba(255, 255, 255, 0.5);
-  background: #eee;
-  background: rgba(255, 255, 255, 0.7);
   margin: 4px 0;
   padding: 3px 8px;
 }
-.l-header .block-user-login .form-submit:hover,
-.l-header .block-user-login .form-submit:focus {
-  background: #fff;
-  background: rgba(255, 255, 255, 0.9);
-}
-/* Search block in region header. */
-.l-header .block-search-form {
-  width: 208px;
-}
-.l-header .block-search-form .form-text {
-  width: 154px;
-}
-/* Language switcher block in region header. */
-.l-header .block-locale ul li {
-  display: inline;
-  padding: 0 0.5em;
-}
-
 
 /* --------------- Header Menu ------------ */
 
@@ -1452,11 +1434,14 @@ select.form-select {
   opacity: 0.9;
 }
 .form-item {
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   margin-top: 2px;
 }
 .form-item label {
   font-size: 0.929em;
+}
+.form-actions {
+  margin-top: 0em;
 }
 .form-type-radio label,
 .form-type-checkbox label {
