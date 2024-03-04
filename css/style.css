@@ -1424,7 +1424,7 @@ input.form-number,
 input.form-search,
 textarea.form-textarea,
 select.form-select {
-  border: 1px solid #ccc;
+  border: 1px solid;
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -1620,7 +1620,7 @@ ol.search-results {
   padding-left: 0;
 }
 .search-results li {
-  border-bottom: 1px solid #d3d7d9;
+  border-bottom: 1px solid;
   padding-bottom: 0.4285em;
   margin-bottom: 0.5em;
 }
@@ -1789,8 +1789,6 @@ table tbody > tr:last-child > td {
 .form-item textarea {
     padding: 0.5em 0.6em;
     display: inline-block;
-    border: 1px solid #ccc;
-    box-shadow: inset 0 1px 3px #ddd;
     border-radius: 4px;
     vertical-align: middle;
     box-sizing: border-box;
@@ -1803,8 +1801,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 .form-item input:not([type]) {
     padding: 0.5em 0.6em;
     display: inline-block;
-    border: 1px solid #ccc;
-    box-shadow: inset 0 1px 3px #ddd;
+    border: 1px solid;
     border-radius: 4px;
     box-sizing: border-box;
 }
