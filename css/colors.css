@@ -208,3 +208,20 @@ form input, form textarea {
   border-bottom: 5px solid var(--iivdark-text2);
   border-right: 5px solid var(--iivdark-text2);
 }
+
+fieldset {
+  border-color: var(--iivdark-surface3);
+}
+fieldset legend {
+  background: var(--iivdark-surface4);
+  color: var(--iivdark-text1)
+}
+fieldset legend a {
+  color: var(--iivdark-text1);
+  text-decoration: none;
+}
+fieldset legend a:hover,
+fieldset legend a:focus,
+fieldset legend a:active {
+  color: var(--iivdark-text2);
+}

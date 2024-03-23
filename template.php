@@ -71,3 +71,17 @@ function iivdark_breadcrumb($variables) {
   }
   return $output;
 }
+
+function iivdark_preprocess_block(&$variables) {
+  $block = $variables['block'];
+  if (get_class($block) == 'BlockHero') {
+    $variables['classes'][] = 'block-hero';
+    if (isset($block->settings['image_path'])) {
+      $variables['attributes']['style'] = 'background-image:url(' . $block->settings['image_path'] . ');';
+      $variables['classes'][] = 'block-hero-image iivdark';
+    }
+    else {
+      $variables['classes'][] = 'block-hero-no-image iivdark';
+    }
+  }
+}

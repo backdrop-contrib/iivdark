@@ -5,6 +5,7 @@ type = theme
 backdrop = 1.x
 
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/fun.css
 stylesheets[all][] = css/colors.css
 stylesheets[print][] = css/print.css
 
