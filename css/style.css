@@ -10,12 +10,7 @@
 
 html {
   font-size: 100%;
-  -webkit-tap-highlight-color: transparent;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
   overflow-wrap: break-word;
-  /* 3 */
 }
 
 /* Sections
@@ -204,39 +199,7 @@ select { /* 1 */
   text-transform: none;
 }
 
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
 
 /**
  * Correct the padding in Firefox.
@@ -289,14 +252,6 @@ textarea {
   padding: 0; /* 2 */
 }
 
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -304,27 +259,9 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
-
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
-}
 
 /* Interactive
    ========================================================================== */
@@ -473,7 +410,6 @@ template {
   line-height: 1.7;
   padding: 1px 10px 2px 10px;
   text-decoration: none;
-  -moz-border-radius: 0 0 10px 10px;
   border-radius: 0 0 10px 10px;
   white-space: nowrap;
   width: auto;
@@ -865,7 +801,6 @@ p.submitted {
   padding: 3px 6px;
   overflow: hidden;
   display: block;
-  -webkit-transition: all 0.35s;
   transition: all 0.35s;
   font-size: 0.8rem;
 }
@@ -1243,7 +1178,6 @@ ul.action-links li a {
   padding: 8% 4%; /* All padding shrinks/grows according to available width. */
   min-height: 128px;
   font-size: 120%;
-  -webkit-transition: min-height 0.25s;
   transition: min-height 0.25s;
   will-change: min-height;
 }
@@ -1257,7 +1191,6 @@ ul.action-links li a {
   font-size: 1.5em;
   font-weight: 900;
   background-clip: text;
-  -webkit-background-clip: text;
   color: transparent;
 }
 @media (min-width: 34em) {
@@ -1445,30 +1378,23 @@ select.form-select {
 /* Contact Form */
 .contact-form #edit-name {
   width: 75%;
-  -moz-border-radius: 4px;
   border-radius: 4px;
 }
 .contact-form #edit-mail {
   width: 75%;
-  -moz-border-radius: 4px;
   border-radius: 4px;
 }
 .contact-form #edit-subject {
   width: 75%;
-  -moz-border-radius: 4px;
   border-radius: 4px;
 }
 .contact-form #edit-message {
   width: 76.3%;
-  -moz-border-radius-topleft: 4px;
-  -moz-border-radius-topright: 4px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
 .contact-form .resizable-textarea .grippie {
   width: 76%;
-  -moz-border-radius-bottomleft: 4px;
-  -moz-border-radius-bottomright: 4px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
@@ -1534,8 +1460,6 @@ h2.comment-form {
   margin-bottom: 0.5em;
 }
 .comment-form .form-textarea {
-  -moz-border-radius-topleft: 4px;
-  -moz-border-radius-topright: 4px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }

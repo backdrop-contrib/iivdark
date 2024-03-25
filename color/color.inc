@@ -64,6 +64,18 @@ $info = array(
         'text2' => '#92a59c',
       ),
     ),
+    'Light' => array(
+      'title' => t('IIV Light'),
+      'colors' => array(
+        'brand' => '#00aaff',
+        'surface1' => '#dfe8ec',
+        'surface2' => '#fcfdfd',
+        'surface3' => '#e7ecef',
+        'surface4' => '#d1dbe0',
+        'text1' => '#002233',
+        'text2' => '#365463',
+      ),
+    ),
   ),
 
   // CSS files (excluding @import) to rewrite with new color scheme.
