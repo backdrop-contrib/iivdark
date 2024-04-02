@@ -58,3 +58,19 @@
 .iiv_card_text_title a {
   text-decoration: none;
 }
+
+
+/***** Home 2 *****/
+.iiv_home_2_card {
+  border: solid 1px;
+  margin-bottom: 1rem;
+}
+.iiv_home_2_card .iiv_card_meta {
+  text-align: center;
+}
+.iiv_home_2_card .iiv_card_title {
+  text-align: center;
+}
+.iiv_home_2_card .iiv_card_title a {
+  text-decoration: none;
+}
