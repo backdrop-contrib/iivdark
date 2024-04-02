@@ -3,14 +3,6 @@
   box-shadow: 0px 0px 10px 2px;
 }
 
-.iivcarte {
-  transition: transform 0.2s;
-  animation: fadein 2s;
-}
-.iivcarte:hover {
-  transform: scale(1.05);
-}
-
 .iivdarkfadein-hero .container {
   opacity: 0;
   animation: iivdarkFadeIn 1s ease 0s 1 normal forwards;
@@ -31,6 +23,15 @@
   }
 }
 
+.iivcarte {
+  transition: transform 0.2s;
+  animation: fadein 2s;
+}
+.iivcarte:hover {
+  transform: scale(1.05);
+}
+
+/***** Home 1 *****/
 .iiv_card_image{
   text-align: center;
 }
