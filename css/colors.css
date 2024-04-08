@@ -29,19 +29,6 @@ body {
   color: var(--iivdark-text1);
 }
 
-/* Style the colors of the dropdown to match the header if no-tabs. */
-.l-header .no-tabs ul.menu a {
-  color: var(--iivdark-surface3);
-}
-.l-header .no-tabs .menu-dropdown a span.sub-arrow {
-  border-color: var(--iivdark-surface3) transparent transparent transparent;
-}
-.l-header .no-tabs .menu-dropdown ul a span.sub-arrow {
-  border-color: transparent transparent transparent var(--iivdark-surface3); /* RTL */
-}
-.l-header .no-tabs ul.menu-dropdown ul {
-  background-color: var(--iivdark-brand);
-}
 
 input {
   color: var(--iivdark-text1);

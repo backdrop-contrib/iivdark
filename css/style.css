@@ -653,19 +653,8 @@ template {
     box-shadow: 2px 2px 2px -2px #333333;
   }
 }
-.l-header .no-tabs ul.menu > li > a.active {
-  text-decoration: underline;
-}
 .l-header ul.menu li a.active {
   border-bottom: none;
-}
-.l-header .no-tabs ul.menu a,
-.l-header .no-tabs ul.menu a:hover,
-.l-header .no-tabs ul.menu a:focus,
-.l-header .no-tabs ul.menu a:active,
-.l-header .no-tabs ul.menu a.highlighted,
-.l-header .no-tabs ul.menu li a.active {
-  background: none;
 }
 
 /* --------------- Hierarchical Tree Menu ------------ */

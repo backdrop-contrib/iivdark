@@ -73,4 +73,13 @@
 }
 .iiv_home_2_card .iiv_card_title a {
   text-decoration: none;
+  color: var(--iivdark-text1);
+  transition: color 1s ease-out;
+}
+.iiv_home_2_card .iiv_card_title a:hover {
+  text-decoration: none;
+  color: var(--iivdark-brand);
+}
+.view-iiv-home-2 .views-row:hover .iiv_home_2_card .iiv_card_title a {
+  color: var(--iivdark-brand);
 }

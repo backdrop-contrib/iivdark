@@ -51,10 +51,6 @@
       function checkTab() {
         var menuColor = $('#palette input[name="palette[menu]"]', form).val();
         var activeMenuColor = $('#palette input[name="palette[activemenu]"]', form).val();
-        if ($('#edit-main-menu-tabs-no-tabs').is(':checked')) {
-          updateTabs('none', 'none', 0, menuColor);
-          $('#preview-main-menu-links a.active').css({'text-decoration': 'underline', 'color': activeMenuColor });
-        }
         if ($('#edit-main-menu-tabs-rounded-tabs').is(':checked')) {
           updateTabs('rgba(255, 255, 255, 0.7)', '0 1px #eee', '8px', '#333');
           $('#preview-main-menu-links a.active').css({
