@@ -8,7 +8,7 @@ An evolution of IIV theme (and so Bartik theme)
  - Install and enable this theme using the official [Backdrop CMS instructions](https://backdropcms.org/guide/themes).
 
 ## Current Maintainers
-Dominique (https://github.com/ininfoveritas)
+Dominique (https://ininfoveritas.fr)
 
 ## License
 
