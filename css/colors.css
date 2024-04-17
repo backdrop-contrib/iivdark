@@ -115,14 +115,35 @@ a:active {
       border-color: transparent transparent transparent var(--iivdark-brand);
   }
 }
+
+.menu-tree li a.active {
+  color: var(--iivdark-brand);
+}
+
 /** Buttons **/
 .form-submit,
 a.button,
 .more-link a,
 .node-readmore a {
   background: var(--iivdark-brand);
-  /*color: var(--iivdark-surface4);*/
+  border: solid 1px var(--iivdark-brand);
+  color: var(--iivdark-surface1);
 }
+a.button:link,
+a.button:visited,
+a.button:hover,
+a.button:focus,
+a.button:active,
+.node-readmore a:hover,
+.form-submit:hover,
+.form-submit:focus {
+  text-decoration: none;
+  border: solid 1px var(--iivdark-brand);
+  background-color: transparent;
+  color: var(--iivdark-brand);
+}
+
+
 
 .breadcrumb {
   background-color: var(--iivdark-surface3);

@@ -1011,20 +1011,9 @@ a.button,
   margin-bottom: 1em;
   margin-right: 0.6em; 
   padding: 0.5em;
-  color: #FCFCFC;
   border: none;
 }
 
-a.button:link,
-a.button:visited,
-a.button:hover,
-a.button:focus,
-a.button:active,
-.node-readmore a:hover {
-  text-decoration: none;
-  /*opacity: 0.9;*/
-  color: #FCFCFC;
-}
 
 .node-readmore {
   float: right;
@@ -1128,11 +1117,6 @@ select.form-select {
   border: 1px solid;
   box-sizing: border-box;
   max-width: 100%;
-}
-.form-submit:hover,
-.form-submit:focus {
-  /*background: #dedede;*/
-  opacity: 0.9;
 }
 .form-item {
   margin-bottom: 0em;

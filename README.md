@@ -1,7 +1,7 @@
 # iivdark
 
 ## Introduction
-An evolution of IIV theme (and so Bartik theme)
+An evolution of IIV theme (and so Bartik theme). Keep it simple.
 
 ## Installation
 
