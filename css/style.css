@@ -941,6 +941,7 @@ ul.action-links li a {
 .breadcrumb {
   font-size: 0.929em;
   padding: 0.8em;
+  margin-bottom: 1em;
 }
 .breadcrumb ol {
   margin: 0;
