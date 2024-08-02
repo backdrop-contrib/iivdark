@@ -1658,3 +1658,33 @@ cite {
 .marker {
   padding: 0.4em;
 }
+
+
+/**
+** Promoted cards
+**/
+.block-views-promoted-cards-block .views-view-grid-cols-3 {
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 48em) {
+  .block-views-promoted-cards-block .views-view-grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+.view-promoted-cards .views-field {
+  padding: 0 1rem;
+}
+.view-promoted-cards .views-field-field-image {
+  padding: 0;
+}
+.view-promoted-cards .views-grid-box {
+  border-radius: 0.25rem;
+  margin: 1rem 0;
+  padding: 0 0 1rem 0;
+  background-color: var(--iivdark-surface4);
+  color: var(--iivdark-text1);
+}
+.view-promoted-cards .views-grid-box {
+  border: none;
+}
